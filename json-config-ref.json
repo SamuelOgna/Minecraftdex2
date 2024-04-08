@@ -6,7 +6,7 @@
     "required": ["discord-token", "text-prefix", "about", "collectible-name", "bot-name", "players-group-cog-name", "admin-command", "prometheus", "owners"],
     "properties": {
         "discord-token": {
-            "description": "The Discord bot token",
+            "description": "",
             "type": "string",
             "minLength": 72,
             "maxLength": 72
@@ -32,8 +32,9 @@
                 },
                 "discord-invite": {
                     "type": "string",
-                    "description": "A Discord server to link for support",
-                    "pattern": "^https?://(discord.gg|discord(app)?.com/invite)/[a-zA-Z0-9]+$"
+                    "description": "My Discord server!!!",
+                    "pattern": "https://discord.com/invite/SyJ9PTxP3H"
+
                 },
                 "terms-of-service": {
                     "type": "string",
